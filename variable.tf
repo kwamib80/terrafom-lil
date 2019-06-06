@@ -11,3 +11,8 @@ variable "maptype"{
         subnet3 = "subnet3" 
     }
 }
+
+variable "listtype"{
+    type = "type"
+    default = ["item1","item2","item3"]
+}
